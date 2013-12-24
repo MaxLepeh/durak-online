@@ -1,0 +1,158 @@
+.north
+{
+	width: 80%;
+	height: 25%;
+	left: 10%;
+	top: 5%;
+	background-color: #05653C;
+	position: absolute;
+}
+
+.northPart
+{
+	width: 7%;
+	left: 1%;
+	top: 5%;
+	background-color: #05653C;
+	float: left;
+	padding-left: 1%;
+	border: solid;
+	border-width: 1px;
+	position: relative;
+}
+
+.northPart:hover
+{
+	border-color: rgba(8, 255, 8, 1);
+}
+
+.southPart
+{
+	width: 7%;
+	left: 1%;
+	top: 5%;
+	background-color: #05653C;
+	float: left;
+	padding-left: 1%;
+	border: solid;
+	border-width: 1px;
+
+	position: relative;
+}
+
+.southPart:hover
+{
+	border-color: rgba(8, 255, 8, 1);
+}
+
+.south
+{
+	width: 80%;
+	height: 25%;
+	left: 10%;
+	bottom: 5%;
+	background-color: #05653C;
+	position: absolute;
+}
+
+.center
+{
+	width: 90%;
+	height: 36%;
+	left: 5%;
+	top: 32%;
+	background-color: #000C5C;
+	position: absolute;
+}
+
+.centerPart
+{
+	width: 12.5%;
+	height: 90%;
+	top: 5%;
+	background-color: #999202;
+	float: left;
+	padding-left: 1%;
+	border: solid;
+	border-width: 1px;
+	position: relative;
+}
+
+.centerRightPart
+{
+	width: 16%;
+	height: 90%;
+	right: 1%;
+	top: 5%;
+	background-color: #044C54;
+	position: absolute;
+}
+
+.cardDeck
+{
+	width: 50%;
+	height: 90%;
+	right: 4%;
+	top: 5%;
+	position: absolute;
+}
+
+.trumpCard
+{
+	width: 90%;
+	height: 50%;
+	right: 5%;
+	top: 25%;
+	background-color: yellow;
+	position: absolute;
+}
+
+.firstCard
+{
+	width: 10%;
+	height: 70%;
+	right: 15%;
+	top: 5%;
+	background-color: green;
+	position: absolute;
+
+}
+
+.secondCard
+{
+	width: 70%;
+	height: 70%;
+	right: 15%;
+	bottom: 5%;
+	background-color: #000C5C;
+	position: absolute;
+
+}
+
+.PickUpCardsFromBoard
+{
+	width: 7%;
+	height: 5%;
+	right: 1%;
+	bottom: 5%;
+	background-color: yellow;
+	position: absolute;
+
+}
+
+.RemoveCardsFromBoard
+{
+	width: 7%;
+	height: 5%;
+	right: 1%;
+	bottom: 12%;
+	background-color: yellow;
+	position: absolute;
+
+}
+
+
+body
+{
+	background-color: green;
+}

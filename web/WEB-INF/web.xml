@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>distributed.durak.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>distributed.durak.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RoomsServlet</servlet-name>
+        <servlet-class>distributed.durak.RoomsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddRoomServlet</servlet-name>
+        <servlet-class>distributed.durak.AddRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StartRoomServlet</servlet-name>
+        <servlet-class>distributed.durak.StartRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>JoinRoomServlet</servlet-name>
+        <servlet-class>distributed.durak.JoinRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GameServlet</servlet-name>
+        <servlet-class>distributed.durak.GameServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdGameServlet</servlet-name>
+        <servlet-class>distributed.durak.UpdGameServlet</servlet-class>
+    </servlet>
+</web-app>
